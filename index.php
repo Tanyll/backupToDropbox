@@ -4,14 +4,14 @@
 // if (PHP_SAPI === 'cli') {
 //     exit('bootstrap.php must not be run via the command line interface');
 // }
-echo 'boohoo';
+
 // Settings
 $key    = 'XXX';
 $secret = 'XXX';
 
 $CRYPT_PRHASE = 'XXX';
 
-$backup_source = 'testfiles';
+$backup_source = 'testdir';
 
 // Set error reporting
 error_reporting(-1);
